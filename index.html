@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>税金ゲーム</h1>
+<button onclick="money+=500;update()">働く</button>
+<button onclick="money-=300;update()">納税</button>
+<p id="m">1000円</p>
+
+<script>
+let money=1000;
+function update(){
+document.getElementById("m").innerText=money+"円";
+}
+</script>
+</body>
+</html>
